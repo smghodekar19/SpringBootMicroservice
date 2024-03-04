@@ -11,13 +11,13 @@ Adding Product :- POST Request
     "price":"790.01",
     "isSellable":"true"
 }
+
 Delete product by Id :- 
 http://localhost:8081/api/product/102
 
 
 Fetching Inventory Details
 http://localhost:8081/api/inventory
-
 
 Creating Order :: 
 POST - http://localhost:8081/api/order
