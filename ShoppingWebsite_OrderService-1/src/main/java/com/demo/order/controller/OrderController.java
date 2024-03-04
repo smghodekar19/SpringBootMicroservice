@@ -1,5 +1,7 @@
 package com.demo.order.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,10 +26,14 @@ public class OrderController {
 
 	IOrderService orderService;
 	
+	private static final Logger log = LoggerFactory.getLogger(OrderController.class);
+
+	
 	ObjectMapper mapper;
 	
 	@PostMapping
 	public String placeOrder(@RequestBody OrderRequestDto orderRequest) {
+		log.error("Order create request received for : " + orderRequest.getOrderItems().toString());
 		Order order = orderService.saveOrder(orderRequest);
 		if(order ==null) {
 			return "Order creation failed";

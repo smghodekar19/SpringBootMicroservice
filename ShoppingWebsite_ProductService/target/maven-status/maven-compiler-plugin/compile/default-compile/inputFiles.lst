@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\config\FeignConfig.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\entity\repository\ProductRepository.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\ShoppingWebsiteProductServiceApplication.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\controller\ProductController.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\exception\ProductNotFoundException.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\exception\GlobalExceptionHandler.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\entity\Product.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\entity\service\IProductService.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\dto\InventoryDetailsDto.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\feign\client\InventoryServiceFeignClient.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\dto\ProductWithInventoryDto.java
+C:\Users\Lenovo\Documents\GitRepo\SpringBootMicroservice\ShoppingWebsite_ProductService\src\main\java\com\demo\product\entity\service\impl\ProductServiceImpl.java

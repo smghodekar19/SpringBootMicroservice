@@ -34,16 +34,16 @@ public class OrderServiceImpl implements IOrderService {
 	
 	private static final Logger log = LoggerFactory.getLogger(OrderServiceImpl.class);
 
-	@Autowired
+//	@Autowired
 	private OrderRepository orderRepository;
 	
-	@Autowired
+//	@Autowired
 	private ProductServiceFeignClient productServiceClient;
 	
-	@Autowired
+//	@Autowired
 	private InventoryServiceFeignClient inventoryServiceClient;
 	
-//	public OrderServiceImpl(OrderRepository orderRepo, ProductServiceFeignClient productServiceClient) {
+//	public OrderServiceImpl(OrderRepository orderRepo, ProductServiceFeignClient productServiceClient, InventoryServiceFeignClient inventoryServiceClient) {
 //		this.orderRepository = orderRepo;
 //		this.productServiceClient = productServiceClient;
 //	}
